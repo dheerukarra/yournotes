@@ -5,6 +5,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
+#nv {
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+}
 #ld {
   position: fixed;
   width: 100%;
