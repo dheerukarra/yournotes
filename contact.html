@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Faster+One&family=Tangerine&display=swap" rel="stylesheet">
+  <link rel = "icon" href = "logo.gif" type = "image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Your Notes</title>
+</head>
+<body onload="load()">
+  <div id="ld"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to bottom, #000066 0%, #333399 100%);">
+    <a class="navbar-brand" id="ltxt" href="index.html" style="font-family: 'Faster One', cursive; " > <img id="logo" src="logo.gif">Your Notes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto am">
+        <li class="nav-item nav">
+          <a class="nav-link" href="index.html"><button type="button" class="btn btn-outline-light" style="border: none; outline: none;">Home</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="notes.html"><button type="button" class="btn btn-outline-light" style="border: none; outline: none;">Notes</button></a>
+        </li>
+        <li class="nav-item nav">
+          <a class="nav-link" href="about.html"><button type="button" class="btn btn-outline-light" style="border: none; outline: none;">About</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><button type="button" class="btn btn-outline-light">Contact</button></a>
+        </li>        
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row" style="text-align: center;">
+      <div class="col-lg">
+        <img src="logo.gif" width="100%">
+        <h1 style="font-family: 'Faster One', cursive; ">Your Notes</h1>
+      </div>
+      <div class="col-lg">
+        <h1 id="abt">Any queries related to updating notes or if you have any notes mail to <u style="color: blueviolet;">contact.yournotes.21@gmail.com</u></h1>
+      </div>
+    </div>  
+  </div>
+  <script>
+    function load() {
+      document.getElementById('ld').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
