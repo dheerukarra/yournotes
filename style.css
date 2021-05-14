@@ -9,7 +9,7 @@ ol{
   display: flex;
   flex-direction:column;
   flex-grow: 1; width: 100%; padding: 10px;
-  margin-left:-20px;
+  margin-left:-25px;
   padding:0px;
      list-style-type: none;
  }
