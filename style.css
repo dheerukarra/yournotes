@@ -13,9 +13,12 @@ ol{
   padding:0px;
      list-style-type: none;
  }
-ol li { flex-grow: 1; padding: 15px; 
+ol li { flex-grow: 1; 
         text-align: center; }
-
+ol,li{
+  margin:0;
+  padding:0;
+}
 #nv {
   top: 0px;
   width: 100%;
