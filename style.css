@@ -10,7 +10,7 @@ ol{
   box-sizing:border-box;
 }
 ol li{
-  box-sizing:border-box;
+  width:100%;
 }
 #nv {
   top: 0px;
