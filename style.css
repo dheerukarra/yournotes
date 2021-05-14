@@ -6,10 +6,12 @@
   box-sizing: border-box;
 }
 ol{
-  display: flex; flex-grow: 1; width: 100%; padding: 10px;
+  display: flex;
+  flex-direction:column;
+  flex-grow: 1; width: 100%; padding: 10px;
      list-style-type: none;
  }
-ol li { flex-grow: 1; padding: 25px; margin: 10px;
+ol li { flex-grow: 1; padding: 15px; margin: 10px;
         text-align: center; }
 
 #nv {
