@@ -77,6 +77,9 @@
   text-align: center;
   padding-top: 15px;
 }
+.v1 {
+  display: none;
+}
 @media (max-width: 991.98px) {
   #abt {
     margin-top: 15px;
@@ -98,6 +101,12 @@
   #home {
     font-size: 1.5rem;
   }
+  .v1 {
+  display: block;
+}
+  .v2 {
+  display: none;
+}
 }
 @media (min-width: 1200px) {
   .ig {
