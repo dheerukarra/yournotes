@@ -5,6 +5,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+ol{
+  list-style-type: none;
+}
 #nv {
   top: 0px;
   width: 100%;
